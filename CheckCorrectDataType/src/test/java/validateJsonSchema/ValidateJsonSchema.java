@@ -7,7 +7,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 public class ValidateJsonSchema {
 
 	@Test
-	public static void validateJsonSchema() {
+	public void validateJsonSchema() {
 		//Build request
 		RestAssured
 		.given()
@@ -24,7 +24,7 @@ public class ValidateJsonSchema {
 		.all()
 		.statusCode(200)
 		.body(JsonSchemaValidator
-				.matchesJsonSchema(new File("C:\\Users\\User\\eclipse-workspace\\Bukalapak Test 1a\\CheckCorrectDataType\\src\\test\\java\\ValidateJsonSchema\\JsonSchema.json")));
+				.matchesJsonSchema(new File("src/test/resources/JsonSchema.json")));
 	}
 
 }

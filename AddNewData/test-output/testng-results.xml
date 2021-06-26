@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-26T19:06:32 ICT" name="Default suite" finished-at="2021-06-26T19:06:36 ICT" duration-ms="3919">
+  <suite started-at="2021-06-26T19:41:28 ICT" name="Default suite" finished-at="2021-06-26T19:41:31 ICT" duration-ms="3516">
     <groups>
     </groups>
-    <test started-at="2021-06-26T19:06:32 ICT" name="Default test" finished-at="2021-06-26T19:06:36 ICT" duration-ms="3919">
+    <test started-at="2021-06-26T19:41:28 ICT" name="Default test" finished-at="2021-06-26T19:41:31 ICT" duration-ms="3516">
       <class name="addNewData.AddNewData">
-        <test-method signature="postRequest()[pri:0, instance:addNewData.AddNewData@6db9f5a4]" started-at="2021-06-26T19:06:32 ICT" name="postRequest" finished-at="2021-06-26T19:06:36 ICT" duration-ms="3856" status="PASS">
+        <test-method signature="postRequest()[pri:0, instance:addNewData.AddNewData@31f9b85e]" started-at="2021-06-26T19:41:28 ICT" name="postRequest" finished-at="2021-06-26T19:41:31 ICT" duration-ms="3450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequest -->
